@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">MyUTAR</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_sort">Sorted By</string>
+    <string name="action_filter">Filtered By</string>
+
+    <string name="no_result">Sorry, no record found!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="feedback_type_array">
+        <item>- Please choose your feedback type -</item>
+        <item>Academic Matters - Unit registration, sssessment, timetable, etc</item>
+        <item>Admission, Enrollment and Credit Transfer Matters</item>
+        <item>Alumni and Graduates Matters - Convocation, job zone, etc.</item>
+        <item>Examinations - Procedures, timetable, venue, results, etc</item>
+        <item>Fees and Refunds</item>
+        <item>General Cleanliness and Upkeep</item>
+        <item>General Facilities - Air-con, building maintenance, etc</item>
+        <item>IT Hardware - Computer labs, printer, network, etc</item>
+        <item>IT Software - Student portal, systems, etc</item>
+        <item>Labs, Teaching Facilities at Faculty / Centre</item>
+        <item>Library Facilities and Services</item>
+        <item>Loans and Scholarships - PTPTN, other loans, etc</item>
+        <item>Security and Car Parking - Safety, guards, parking, etc</item>
+        <item>Student Services - Bus schedule, car stickers, sport facilities, etc.</item>
+        <item>UTAR Bus Service</item>
+        <item>UTAR Policy Matters, Rules and Regulations</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>All</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="year_array">
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+    </string-array>
+
+    <string-array name="feedback_status_array">
+        <item>New</item>
+        <item>Processing</item>
+        <item>Closed (Pending)</item>
+        <item>Reopened</item>
+        <item>Closed</item>
+        <item>New</item>
+        <item>Processing</item>
+        <item>Closed (Pending)</item>
+        <item>Reopened</item>
+        <item>Closed</item>
+    </string-array>
+
+</resources>

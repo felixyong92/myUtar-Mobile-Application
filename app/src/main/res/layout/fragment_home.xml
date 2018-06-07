@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myutar.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:id="@+id/announcement"
+                android:textAlignment="center"
+                android:text="Announcement Categories"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/announcement_button_row_1"
+                android:paddingTop="30dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo_bus2"
+                    android:id="@+id/button_bus_service"
+                    android:scaleType="fitCenter"
+                    android:background="#0000"/>
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo_event"
+                    android:id="@+id/button_event"
+                    android:scaleType="fitCenter"
+                    android:background="#0000"/>
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo_notification"
+                    android:id="@+id/button_notification"
+                    android:scaleType="fitCenter"
+                    android:background="#0000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/announcement_button_row_1"
+                android:id="@+id/announcement_button_row_2"
+                android:paddingTop="25dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo_health"
+                    android:id="@+id/button_healthcare"
+                    android:scaleType="fitCenter"
+                    android:background="#0000"/>
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo_safety"
+                    android:id="@+id/button_safety"
+                    android:scaleType="fitCenter"
+                    android:background="#0000"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:textAlignment="center"
+                android:id="@+id/feedback"
+                android:text="Feedback"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo_feedback_add"
+                    android:id="@+id/button_feedback_form"
+                    android:scaleType="fitCenter"
+                    android:background="#0000"/>
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo_feedback_view"
+                    android:id="@+id/button_feedback_status"
+                    android:scaleType="fitCenter"
+                    android:background="#0000"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

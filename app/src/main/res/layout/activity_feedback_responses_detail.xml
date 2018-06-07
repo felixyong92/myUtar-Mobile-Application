@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/recycler_view"
+                android:id="@+id/recycler_view"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/recycler_view"
+                android:id="@+id/question"
+                android:text="Are you satisfied with the responses?"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question"
+                android:layout_marginStart="80dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/no"
+                android:onClick="answerNo"
+                android:text="No"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/question"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:backgroundTint="#0086b3"
+                android:textSize="16dp"
+                android:id="@+id/yes"
+                android:onClick="answerYes"
+                android:text="Yes"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

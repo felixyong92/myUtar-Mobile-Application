@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myutar">
+
+    <!-- the internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BusServiceActivity"
+            android:label="Bus Service"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EventActivity"
+            android:label="Event"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="Notification"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HealthCareActivity"
+            android:label="Health Care"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SafetyActivity"
+            android:label="Safety"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FeedbackFormActivity"
+            android:label="Feedback Form"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FeedbackStatusActivity"
+            android:label="Feedback List"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BusServiceDetailActivity"
+            android:label="Bus Service Detail"
+            android:parentActivityName=".BusServiceActivity" />
+        <activity
+            android:name=".EventDetailActivity"
+            android:label="Event Detail"
+            android:parentActivityName=".EventActivity" />
+        <activity
+            android:name=".FeedbackStatusDetailActivity"
+            android:label="Feedback Status Detail"
+            android:parentActivityName=".FeedbackStatusActivity" />
+        <activity
+            android:name=".HealthCareDetailActivity"
+            android:label="Health Care Detail"
+            android:parentActivityName=".HealthCareActivity" />
+        <activity
+            android:name=".SafetyDetailActivity"
+            android:label="Feedback Status Detail"
+            android:parentActivityName=".SafetyActivity" />
+        <activity
+            android:name=".NotificationDetailActivity"
+            android:label="Notification Detail"
+            android:parentActivityName=".NotificationActivity" />
+        <activity
+            android:name=".FeedbackResponsesDetailActivity"
+            android:label="Feedback Responses"></activity>
+        <activity android:name=".FeedbackResponsesSatisfactoryActivity"></activity>
+    </application>
+
+</manifest>
